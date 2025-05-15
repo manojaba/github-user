@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+
+  body{
+    font-family:'Space Mono', monospace;
+  }
+}
+
+@theme {
+  --color-f-light-blue-100:#0079FF;
+  --color-f-light-blue-200:#697C9A;
+  --color-f-light-blue-300:#4B6A9B;
+  --color-f-light-blue-400:#2B3442;
+  --color-f-light-greyblue:#F6F8FF;
+  --color-f-light-white:#FEFEFE;
+  --color-f-dark-blue-100:#0079FF;
+  --color-f-dark-blue-200:#141D2F;
+  --color-f-dark-blue-300:#1E2A47;
+  --color-f-dark-white:#ffffff;
+
+}
